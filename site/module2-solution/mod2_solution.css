@@ -6,9 +6,9 @@
 }
 
 body { 
-background-color: #FAFAFA;
-font-family: "Lucida Sans", sans-serif;
- 
+  background-color: #FAFAFA;
+  font-family: "Lucida Sans", sans-serif;
+   
 }
 
 h1 {
@@ -28,22 +28,22 @@ h1 {
 }
 
 .Category {
-border: 1px solid blue;
-float: left;
-background-color: #D8D8D8;
-margin-bottom: 5%;
-margin-left: 10px;
+  border: 1px solid blue;
+  float: left;
+  background-color: #D8D8D8;
+  margin-bottom: 5%;
+  margin-left: 10px;
 
 
 }
 
 
 .box3{
-border: 1px solid blue;
-float: right;
-background-color: #D8D8D8;
-margin-bottom: 5%;
-margin-left: 10px;
+  border: 1px solid blue;
+  float: right;
+  background-color: #D8D8D8;
+  margin-bottom: 5%;
+  margin-left: 10px;
 
 }
 
