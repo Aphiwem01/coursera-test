@@ -45,7 +45,7 @@ WARNING!!! WARNING!!!
     for (var i = 0; i < names.length; i++) {
       
       var letters =  names[i].charAt(0);
-      var firstLetter = "j";
+      var firstLetter = 'J';
      
       // STEP 11:
       // Retrieve the first letter of the current name in the loop.
@@ -62,7 +62,7 @@ WARNING!!! WARNING!!!
       // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
       // name in the loop.
       if (letters == firstLetter.toLowerCase() ||letters== firstLetter.toUpperCase()) {
-         byeSpeaker.speak(names[i]);
+         byeSpeaker.speak(names[i].toLowerCase());
       } else {
          helloSpeaker.speak(names[i]);
       }
